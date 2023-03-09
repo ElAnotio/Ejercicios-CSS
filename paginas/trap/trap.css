@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+    background-color: #F4DFBA;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20;
+    color: #000;
+}
+.titulo{
+    background-color: #CA965C;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 720px;
+    margin-right: 720px;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: #CA965C;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: #876445;
+    color: #000;
+
+}
+
+nav li>ul {
+    display: none;
+
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.menu {
+    background-color: #CA965C;
+    text-align: center;
+}
+
+
+@keyframes pikachu {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+img {
+    width: 70px;
+    margin-bottom: -10px;
+}
+
+.imagen {
+    margin-left: auto;
+    animation-name: pikachu;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes pikachu2 {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+
+.imagen2 {
+    margin-left: auto;
+    animation-name: pikachu2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+
+}
+
+.aaaaa {
+    margin: 5px;
+}
+
+.duki {
+    background-color: #CA965C ;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 1350px;
+    text-align: center;
+    border-radius: 10px;
+    height: 1200px;
+    z-index: -1;
+    
+}
+.duki p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+    
+}
+
+.duki h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.khea {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 700px;
+    margin-right: 700px;
+    background-color: #CA965C ;
+    text-align: center;
+    border-radius: 10px;
+    height: 1200px;
+    z-index: -1;
+
+}
+
+.khea p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.khea h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.cro {
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 1350px;
+    margin-right: 100px;
+    background-color: #CA965C ;
+    text-align: center;
+    border-radius: 10px;
+    height: 1200px;
+    z-index: -1;
+
+}
+
+.cro p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.cro h1{
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.contenido > h1{
+    text-decoration: underline;
+}
+
+.slider ul, li{
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+ul.slider{
+position: relative;
+width: 300;
+height: 310px;
+
+}
+
+ul.slider li {
+   position: absolute;
+   top: 0px;
+   opacity: 0;
+   width: inherit;
+   height: inherit;
+   transition: opacity .5s;
+}
+
+ul.slider li img{
+width: 80%;
+height: 300px;
+object-fit: cover;
+}
+
+ul.slider li:first-child {
+   opacity: 1;
+}
+
+ul.slider li:target {
+   opacity: 1; 
+}
+
+    
+    .menu1 li{
+    display: inline-block;
+    margin-left: auto;
+    }
+    
+    .menu1 li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 100%;
+    }
+
+    .viduki{
+        width: 400px;
+        margin-top: 30px;
+    }
+
+@media only screen and (max-width: 1366px)
+
+/* MI PORTATIL*/
+    {
+    nav ul li a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1441px)
+
+/* PC DE CLASE*/
+    {
+        .duki{
+            margin-right: 950px;
+        }
+
+        .khea{
+            margin-left: 530px;
+            margin-right: 530px;
+        }
+
+        .cro{
+            margin-left: 950px;
+        }
+        .viduki{
+            width: 300px;
+        }
+    }
+
+@media only screen and (max-width: 1024px)
+
+/* PC DE CLASE PEQUEÑO */
+    {
+    img {
+        display: none;
+    }
+
+    .aaaaa {
+        margin: 1px;
+    }
+
+
+
+}

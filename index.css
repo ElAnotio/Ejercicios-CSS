@@ -1,0 +1,89 @@
+/* https://colorhunt.co/palette/876445ca965ceec373f4dfba para los colores*/
+/*https://colorhunt.co/palette/61481ca47e3bbf9742e6b325 la segunda palera */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+  background-color: #F4DFBA;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  font-family: 'Tilt Neon', cursive;
+}
+
+.header {
+  background-color: #CA965C;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.cuerpo {
+  background-color: #EEC373;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #CA965C;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  
+}
+
+.button:hover {
+  background-color: #A47E3B
+}
+
+.button:active {
+  background-color: #876445;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Tilt Neon', cursive;
+}
+
+img {
+  width: 400px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+img{
+  width: 250px;
+}
+}
+@media only screen and (max-width: 400px) {
+  img{
+    width: 120px;
+  }
+  .primero{
+    width: 200px;
+    font-size: 20%;
+  }
+  }
+@media only screen and (max-width: 200px) {
+  img{
+    width: 120px;
+  }
+  .primero{
+    width: 120px;
+    font-size: 20%;
+  }
+  button{
+    width: 1px;
+    font-size: 1%;
+  }
+  }

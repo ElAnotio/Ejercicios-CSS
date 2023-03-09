@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+    background-color: #F4DFBA;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20;
+    color: #000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: #CA965C;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: #876445;
+    color: #000;
+
+}
+
+nav li>ul {
+    display: none;
+
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 2;
+
+}
+
+.menu {
+    background-color: #CA965C;
+    text-align: center;
+
+}
+
+
+@keyframes pikachu {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+img {
+    width: 70px;
+    margin-bottom: -10px;
+}
+
+.imagen{
+    margin-left: auto;
+    animation-name: pikachu;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes pikachu2 {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+
+.imagen2 {
+    margin-left: auto;
+    animation-name: pikachu2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+
+}
+
+.aaaaa {
+    margin: 5px;
+}
+
+
+.anime1{
+    background-color: #CA965C;
+    margin-left: 60px;
+    margin-right: 800px;
+    margin-top: 60px;
+    border-radius: 5px;
+    position: absolute;
+    
+}
+
+.anime1 h1{
+    margin-left: 15px;
+    text-align: center;
+}
+
+.anime1 p{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+
+.fmab{
+    z-index: 1;
+    width: 600px;
+    position: absolute;
+    margin-left: 1200px;
+    margin-right: 600px;
+    margin-top: 60px;
+}
+.fmab2{
+    width: 600px;
+    position: absolute;
+    margin-left: 1200px;
+    margin-right: 600px;
+    margin-top: 60px;
+}
+.fmab:hover{
+    display: none;
+}
+
+.anime2{
+    background-color: #CA965C;
+    margin-left: 800px;
+    margin-right: 60px;
+    margin-top: 500px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.anime2 h1{
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.anime2 p{
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    text-align: right;
+}
+
+
+.shigatsu{
+    z-index: 1;
+    width: 600px;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 1200px;
+    margin-top: 500px;
+}
+.shigatsu2{
+    width: 600px;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 1200px;
+    margin-top: 500px;
+}
+.shigatsu:hover{
+    display: none;
+}
+
+.anime3{
+    background-color: #CA965C;
+    margin-left: 60px;
+    margin-right: 800px;
+    margin-top: 950px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.anime3 h1{
+    margin-left: 15px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.anime3 p{
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.ousama{
+    z-index: 1;
+    width: 600px;
+    position: absolute;
+    margin-left: 1200px;
+    margin-right: 100px;
+    margin-top: 950px;
+}
+.ousama2{
+    width: 600px;
+    position: absolute;
+    margin-left: 1200px;
+    margin-right: 100px;
+    margin-top: 950px;
+}
+.ousama:hover{
+    display: none;
+}
+
+@media only screen and (max-width: 390px){
+    /* Movil */
+
+    .anime1{
+        
+        margin-left: 50px;
+        margin-right: 25px;
+    }
+    .anime1 p{
+        margin-right: 25px;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .anime1 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .fmab{
+        width: 270px;
+        margin-left: 70px;
+        margin-right: 1500px;
+        margin-top: 570px;
+    }
+    .fmab2{
+        width: 270px;
+        margin-left: 70px;
+        margin-right: 1500px;
+        margin-top: 570px;
+    }
+   
+
+    .anime2{
+        margin-left: 50px;
+        margin-right: 25px;
+        margin-top: 770px;
+    }
+    .anime2 p{
+        font-size: 15px;
+        margin-right: 25px;
+        text-align: justify;
+    }
+    .anime2 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .shigatsu{
+        width: 270px;
+        margin-left: 70px;
+        margin-right: 1500px;
+        margin-top: 1290px;
+    }
+    .shigatsu2{
+        width: 270px;
+        margin-left: 70px;
+        margin-right: 1500px;
+        margin-top: 1290px;
+    }
+
+    .anime3{
+        margin-left: 50px;
+        margin-right: 25px;
+        margin-top: 1470px;
+    }
+    .anime3 p{
+        font-size: 15px;
+        margin-right: 25px;
+        text-align: justify;
+    }
+    .anime3 h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .ousama{
+        width: 270px;
+        margin-left: 70px;
+        margin-right: 1500px;
+        margin-top: 1950px;
+    }
+    .ousama2{
+        width: 270px;
+        margin-left: 70px;
+        margin-right: 1500px;
+        margin-top: 1950px;
+    }
+
+    .imagen{
+        display: none;
+    }
+    .imagen2{
+        animation: none;
+    }
+}
+
+@media only screen and (max-width: 820px)and (min-width: 391px){
+    /* tablet */
+    .anime1{
+        margin-right: 60px;
+    }
+    .anime1 p{
+        font-size: 25px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .anime1 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .fmab{
+        width: 600px;
+        margin-left: 100px;
+        margin-right: 1520px;
+        margin-top: 660px;
+    }
+    .fmab2{
+        width: 600px;
+        margin-left: 100px;
+        margin-right: 1520px;
+        margin-top: 660px;
+    }
+    .anime2{
+        margin-left: 60px;
+        margin-top: 1100px;
+    }
+    .anime2 p{
+        font-size: 25px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .anime2 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .shigatsu{
+        width: 600px;
+        margin-left: 100px;
+        margin-right: 1520px;
+        margin-top: 1700px;
+    }
+    .shigatsu2{
+        width: 600px;
+        margin-left: 100px;
+        margin-right: 1520px;
+        margin-top: 1700px;
+    }
+
+    .anime3{
+        margin-right: 60px;
+        margin-top: 2100px;
+    }
+    .anime3 p{
+        font-size: 25px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .anime3 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .ousama{
+        width: 600px;
+        margin-left: 100px;
+        margin-right: 1520px;
+        margin-top: 2650px;
+    }
+    .ousama2{
+        width: 600px;
+        margin-left: 100px;
+        margin-right: 1520px;
+        margin-top: 2650px;
+    }
+    .imagen{
+        display: none;
+    }
+    .imagen2{
+        animation: none;
+    }
+}
+
+@media only screen and (max-width: 1441px) and (min-width: 821px){
+    /* PC DE CLASE */
+    .anime1{
+        margin-right: 650px;
+    }
+    .anime1 p{
+        font-size: 21px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .anime1 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .fmab{
+        width: 600px;
+        margin-left: 800px;
+        margin-right: 100px;
+        margin-top: 60px;
+
+    }
+    .fmab2{
+        width: 600px;
+        margin-left: 800px;
+        margin-right: 100px;
+        margin-top: 60px;
+    }
+    .anime2{
+        margin-right: 30px;
+        margin-left: 650px;
+    }
+    .anime2 p{
+        font-size: 21px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .anime2 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .shigatsu{
+        width: 550px;
+        margin-left: 50px;
+        margin-right: 800px;
+        margin-top: 500px;
+    }
+    .shigatsu2{
+        width: 550px;
+        margin-left: 50px;
+        margin-right: 800px;
+        margin-top: 500px;
+    }
+
+    .anime3{
+        margin-right: 650px;
+        margin-top: 950px;
+    }
+    .anime3 p{
+        font-size: 21px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+    .anime3 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .ousama{
+        width: 600px;
+        margin-left: 800px;
+        margin-right: 100px;
+        margin-top: 950px;
+
+    }
+    .ousama2{
+        width: 600px;
+        margin-left: 800px;
+        margin-right: 100px;
+        margin-top: 950px;
+    }
+
+}

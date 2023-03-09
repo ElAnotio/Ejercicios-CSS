@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+    background-color: #F4DFBA;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20;
+    color: #000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: #CA965C;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: #876445;
+    color: #000;
+
+}
+
+nav li>ul {
+    display: none;
+
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 2;
+
+}
+
+.menu {
+    background-color: #CA965C;
+    text-align: center;
+
+}
+
+
+@keyframes pikachu {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+img {
+    width: 70px;
+    margin-bottom: -10px;
+}
+
+.imagen {
+    margin-left: auto;
+    animation-name: pikachu;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes pikachu2 {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+
+.imagen2 {
+    margin-left: auto;
+    animation-name: pikachu2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+
+}
+
+.aaaaa {
+    margin: 5px;
+}
+
+.aficion{
+    background-color: #CA965C;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 40%;
+    font-size: 20px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 5px;
+}
+
+.aficion h1{
+    margin: 2%;
+    text-align: center;
+}
+
+.aficion p{
+    margin: 2%;
+    text-align: justify;
+}
+
+
+.equipo{
+    float: right;
+    text-align: right;
+    margin-right: 5%;
+    background-color: #CA965C;
+    margin-top: 5%;
+    margin-left: 40%;
+    font-size: 20px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-radius: 5px;
+    margin-bottom: 5%;
+
+}
+
+.equipo h1{
+    margin: 2%;
+    text-align: center;
+}
+
+.equipo p{
+    margin: 2%;
+    text-align: justify;
+
+}
+
+.niño{
+    position: absolute;
+    width: 550px;
+    margin-top: 5%;
+    margin-left: 65%;
+
+}
+
+.himno{
+    position: absolute;
+    width: 650px;
+    margin-top: 6%;
+    margin-left: 4%;
+    
+}
+
+
+
+@media only screen and (max-width: 390px) {
+    .imagen {
+        display: none;
+    }
+
+    .imagen2{
+        animation: none;
+    }
+
+    .aficion{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .niño{
+        margin-top: 880px;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 375px;
+    }
+
+    .equipo{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 340px;
+
+    }
+    .himno{
+        width: 375px;
+        margin-top: 1100px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 391px) {
+    .imagen {
+        display: none;
+    }
+
+    .imagen2{
+        animation: none;
+    }
+
+
+    .aficion{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .niño{
+        margin-top: 550px;
+        margin-left: 8%;
+        margin-right: 2%;
+        width: 700px;
+    }
+
+    .equipo{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 620px;
+
+    }
+    .himno{
+        margin-top: 1080px;
+        margin-left: 8%;
+        margin-right: 2%;
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 1441px) and (min-width: 821px) {
+    .aficion p{
+        font-size: 15px;
+    }
+    .niño{
+        width: 450px;
+    }
+
+    .equipo{
+        font-size: 15px;
+        margin-left: 50%;
+    }
+    .himno{
+        width: 550px;
+        margin-left: 5%;
+        
+    }
+}

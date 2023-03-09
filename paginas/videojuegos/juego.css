@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+    background-color: #F4DFBA;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20;
+    color: #000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: #CA965C;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: #876445;
+    color: #000;
+
+}
+
+nav li>ul {
+    display: none;
+
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 2;
+
+}
+
+.menu {
+    background-color: #CA965C;
+    text-align: center;
+
+}
+
+
+@keyframes pikachu {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+img {
+    width: 70px;
+    margin-bottom: -10px;
+}
+
+.imagen {
+    margin-left: auto;
+    animation-name: pikachu;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes pikachu2 {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+
+.imagen2 {
+    margin-left: auto;
+    animation-name: pikachu2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+
+}
+
+.aaaaa {
+    margin: 5px;
+}
+
+.hollow {
+    margin-top: 20px;
+    background-color: #CA965C;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.hollow h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.hollow p {
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+
+.hollow1 {
+    float: left;
+    width: 550px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.hollow3 {
+    width: 550px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+
+.cuphead {
+    margin-top: 20px;
+    background-color: #CA965C;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.cuphead h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.cuphead p {
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.stardew {
+    margin-top: 20px;
+    background-color: #CA965C;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.stardew h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.stardew p {
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+@media only screen and (max-width: 390px) {
+
+    /* Movil */
+    .hollow1 {
+        width: 150px;
+        float: none;
+    }
+
+    .hollow3 {
+        width: 150px;
+        float: none;
+    }
+
+    .hollow {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hollow p {
+        font-size: 22px;
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .cuphead {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .cuphead p {
+        font-size: 22px;
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .stardew {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .stardew p {
+        font-size: 22px;
+        text-align: justify;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .imagen {
+        display: none;
+    }
+
+    .imagen2{
+        animation: none;
+    }
+
+}
+
+@media only screen and (max-width: 820px)and (min-width: 391px){
+
+/* Tablet */
+    .hollow{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .hollow p{
+        font-size: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .hollow1{
+        width: 650px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    .hollow3{
+        width: 650px;
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+
+    .cuphead{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .cuphead p{
+        font-size: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .stardew{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .stardew p{
+        font-size: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .imagen{
+        display: none;
+    }
+    .imagen2{
+        animation: none;
+    }
+
+}
+
+@media only screen and (max-width: 1441px) and (min-width: 821px) {
+
+    /* PC DE CLASE */
+    .hollow {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .hollow p {
+        font-size: 18px;
+        margin-right: 460px;
+        margin-left: 460px;
+    }
+
+    .hollow1 {
+        width: 400px;
+    }
+
+    .hollow3 {
+        width: 400px;
+    }
+
+    .cuphead {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .cuphead p {
+        font-size: 18px;
+        margin-right: 460px;
+        margin-left: 460px;
+    }
+
+    .cuphead1 {
+        width: 400px;
+    }
+
+    .cuphead2 {
+        width: 400px;
+    }
+
+    .stardew {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .stardew p {
+        font-size: 18px;
+        margin-right: 460px;
+        margin-left: 460px;
+    }
+
+    .stardew1 {
+        width: 400px;
+    }
+
+    .stardew2 {
+        width: 400px;
+    }
+
+}

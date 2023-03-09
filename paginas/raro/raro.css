@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body {
+    background-color: #F4DFBA;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20;
+    color: #000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    padding: 5px 10px;
+    background-color: #CA965C;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+nav li:hover {
+    background-color: #876445;
+    color: #000;
+
+}
+
+nav li>ul {
+    display: none;
+
+}
+
+nav li:hover>ul {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 2;
+
+}
+
+.menu {
+    background-color: #CA965C;
+    text-align: center;
+
+}
+
+
+@keyframes pikachu {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+img {
+    width: 70px;
+    margin-bottom: -10px;
+}
+
+.imagen {
+    margin-left: auto;
+    animation-name: pikachu;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes pikachu2 {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+
+.imagen2 {
+    margin-left: auto;
+    animation-name: pikachu2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+
+}
+
+.aaaaa {
+    margin: 5px;
+
+}
+
+.mensaje {
+    background-color: #CA965C;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    
+}
+
+.mensaje h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.mensaje p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 20px;
+}
+
+.pizza {
+    margin-top: 20px;
+    background-color: #CA965C;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.pizza h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.pizza ul {
+    font-size: 22px;
+    margin-left: 5%;
+}
+
+.sheldon{
+    position: absolute;
+    float: left;
+    width: 300px;
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+
+.levi{
+    position: absolute;
+    z-index: -1;
+    width: 700px;
+    margin-top: 350px;
+    margin-left: 67%;
+}
+
+@media only screen and (max-width: 390px) {
+    .imagen, .levi, .sheldon{
+        display: none;
+    }
+    .pizza{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .pizza ul{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .imagen2{
+        animation: none;
+    }
+
+}
+
+@media only screen and (max-width: 820px)and (min-width: 391px){
+    .imagen, .levi, .sheldon{
+        display: none;
+    }
+    .pizza{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .pizza ul{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .imagen2{
+        animation: none;
+    }
+}
+
+@media only screen and (max-width: 1441px) and (min-width: 821px) {
+    .pizza ul{
+        font-size: 18px;
+    }
+
+    .sheldon{
+        width: 250px;
+        margin-left: 70px;
+        margin-top: 300px;
+    }
+    .levi{
+        width: 600px;
+        margin-left: 67%;
+        margin-top: 450px;
+    }
+
+}
+
+
+
